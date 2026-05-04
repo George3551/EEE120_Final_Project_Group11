@@ -85,6 +85,16 @@ The Python program asks the user four yes/no questions. Each answer is converted
 
 The implementation is located in `src/`.
 
+## Project Structure
+
+| Path | Description |
+| --- | --- |
+| `src/main.py` | Console interface for user input and output display |
+| `src/decision_logic.py` | Boolean logic implementation matching the circuit |
+| `tests/test_decision_logic.py` | Unit tests for formulas, truth table, and input parsing |
+| `screenshots/` | CircuitVerse and Python output screenshots |
+| `presentation/` | Final project presentation PDF |
+
 ## How to Run the Python Code
 
 From the project root:
@@ -101,14 +111,13 @@ python -m unittest discover tests
 
 ## Screenshots
 
-Screenshots should be placed in `screenshots/`.
+Circuit design:
 
-Required screenshots:
+![Circuit Design](screenshots/circuit_design.png)
 
-| File | Description |
-| --- | --- |
-| `screenshots/circuit_design.png` | CircuitVerse circuit screenshot |
-| `screenshots/python_output.png` | Python program result screenshot |
+Python output:
+
+![Python Output](screenshots/python_output.png)
 
 ## AI/LLM Usage
 
