@@ -79,10 +79,6 @@ The same formulas are used in both the CircuitVerse circuit and the Python progr
 | 1 | 1 | 1 | 0 | 0 | 1 | 1 | 0 |
 | 1 | 1 | 1 | 1 | 1 | 0 | 1 | 0 |
 
-## CircuitVerse Link
-
-The CircuitVerse project link should be added to `circuitverse_link.txt`.
-
 ## Python Program Explanation
 
 The Python program asks the user four yes/no questions. Each answer is converted into a Boolean value. The program then applies the same Boolean formulas used in the circuit and prints the values of Y1, Y2, Y3, and Y4.
